@@ -15,3 +15,6 @@
 
 /* Near-invisible outer hero glass */
 .hero-content{border-color:rgba(145,189,255,.06);background:linear-gradient(145deg,rgba(4,9,35,.055),rgba(19,12,66,.045));box-shadow:0 24px 70px rgba(0,0,35,.07),inset 0 1px rgba(255,255,255,.035);backdrop-filter:blur(3px)}.hero-content:before{opacity:.12}@media(max-width:600px){.hero-content{background:linear-gradient(145deg,rgba(4,9,35,.08),rgba(19,12,66,.06));backdrop-filter:blur(4px)}}
+
+/* Flat hero title */
+.hero-content h1,.hero-content h1 span{text-shadow:none;filter:none}

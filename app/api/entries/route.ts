@@ -21,7 +21,6 @@ export async function POST(request:Request){
       method:'POST',
       headers:{
         apikey:e.SUPABASE_ANON_KEY,
-        Authorization:'Bearer '+e.SUPABASE_ANON_KEY,
         'Content-Type':'application/json',
         'X-Forwarded-For':request.headers.get('CF-Connecting-IP')||''
       },

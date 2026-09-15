@@ -6,4 +6,5 @@ The browser receives only the public Supabase key. The Edge Function validates a
 
 Email notifications are intentionally disabled for V1. Approved records are publicly readable, while anonymous users cannot write directly to tables or execute the privileged database functions. Team members can moderate `status` in the Supabase dashboard.
 
-The UI listens for Supabase Realtime changes and also refreshes every 30 seconds. GG post metadata is deliberately not fabricated.
+The UI listens for Supabase Realtime changes and also refreshes every 30 seconds. Accepted thesis links must match https://gg.xyz/post/{UUID}. The supplied example was used to verify the route shape. GG post metadata is deliberately not fabricated.
+

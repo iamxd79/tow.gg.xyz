@@ -1,0 +1,1 @@
+alter table public.thesis_entries drop constraint thesis_entries_gg_thesis_url_check; alter table public.thesis_entries add constraint thesis_entries_gg_thesis_url_check check (gg_thesis_url ~ '^https://gg\.xyz/post/[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$');

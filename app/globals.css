@@ -15,6 +15,3 @@
 
 /* Near-invisible outer hero glass */
 .hero-content{border-color:rgba(145,189,255,.06);background:linear-gradient(145deg,rgba(4,9,35,.055),rgba(19,12,66,.045));box-shadow:0 24px 70px rgba(0,0,35,.07),inset 0 1px rgba(255,255,255,.035);backdrop-filter:blur(3px)}.hero-content:before{opacity:.12}@media(max-width:600px){.hero-content{background:linear-gradient(145deg,rgba(4,9,35,.08),rgba(19,12,66,.06));backdrop-filter:blur(4px)}}
-
-/* Stronger hero title */
-.hero-content h1{position:relative;font-size:clamp(3.65rem,5.7vw,6.25rem);line-height:.92;letter-spacing:-.055em;font-weight:900;color:#fff;text-shadow:0 3px 0 rgba(23,35,105,.72),0 0 20px rgba(92,205,255,.42),0 10px 42px rgba(0,0,24,.9);filter:drop-shadow(0 0 16px rgba(44,117,255,.24))}.hero-content h1 span{background:linear-gradient(90deg,#f3fcff 0%,#8de8ff 46%,#c9b7ff 100%);background-clip:text;-webkit-background-clip:text;color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 2px 10px rgba(83,211,255,.4))}@media(max-width:900px){.hero-content h1{font-size:clamp(3rem,7vw,4.7rem)}}@media(max-width:600px){.hero-content h1{font-size:3.2rem;line-height:.96}}

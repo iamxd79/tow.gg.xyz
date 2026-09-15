@@ -22,6 +22,7 @@ export async function POST(request:Request){
       headers:{
         apikey:e.SUPABASE_ANON_KEY,
         'Content-Type':'application/json',
+        Origin:'https://gg-thesis-of-the-week.canvapro-5368.chatgpt.site',
         'X-Forwarded-For':request.headers.get('CF-Connecting-IP')||''
       },
       body,

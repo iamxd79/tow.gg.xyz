@@ -364,6 +364,7 @@ h2 {
 }
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -373,6 +374,28 @@ h2 {
   border-radius: 12px;
   background: linear-gradient(135deg, #111a35b0, #0b1024);
   scroll-margin: 30px;
+}
+
+.entry-number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  height: 28px;
+  padding: 0 9px;
+  border: 1px solid rgba(126,225,255,.38);
+  border-radius: 999px;
+  background: rgba(5,10,31,.82);
+  box-shadow: 0 5px 18px rgba(0,0,20,.32);
+  backdrop-filter: blur(8px);
+  color: #8cecff;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .04em;
 }
 
 .thesis-preview {
